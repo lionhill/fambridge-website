@@ -1,13 +1,11 @@
 :root {
   --orange: #f59a3d;
   --navy: #082d4d;
-  --cream: #f5eadc;
   --surface: #ffffff;
-  --soft: #f6f7f8;
-  --text: #102435;
-  --muted: #5c6d7b;
-  --line: rgba(8, 45, 77, .10);
-  --max: 1180px;
+  --text: #183247;
+  --muted: #61717f;
+  --line: rgba(8, 45, 77, .12);
+  --max: 1120px;
 }
 
 * { box-sizing: border-box; }
@@ -31,7 +29,7 @@ p, h1 { margin: 0; }
 }
 
 .nav {
-  min-height: 64px;
+  min-height: 62px;
   display: flex;
   align-items: center;
 }
@@ -45,102 +43,74 @@ p, h1 { margin: 0; }
 
 .hero {
   background: var(--orange);
-  padding: 104px 0 74px;
+  padding: 96px 0 68px;
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(320px, .9fr);
-  gap: 88px;
-  align-items: end;
+.hero-inner {
+  max-width: 880px;
 }
 
 h1 {
-  max-width: 690px;
+  max-width: 780px;
   color: var(--navy);
-  font-size: clamp(3.1rem, 5.3vw, 5rem);
-  line-height: .98;
+  font-size: clamp(2.9rem, 5vw, 4.7rem);
+  line-height: 1;
   letter-spacing: -.055em;
 }
 
-.hero-moments {
-  display: grid;
-  gap: 14px;
-  padding-bottom: 4px;
-}
-
-.hero-moments p {
-  color: var(--navy);
-  font-size: clamp(1.02rem, 1.45vw, 1.28rem);
-  line-height: 1.48;
-  max-width: 520px;
-}
-
-.story {
-  padding: 84px 0;
-  background: var(--surface);
-}
-
-.story-deeper {
-  background: var(--soft);
-}
-
-.story-grid {
-  display: grid;
-  grid-template-columns: minmax(220px, .72fr) minmax(0, 1.45fr);
-  gap: 84px;
-  align-items: start;
-}
-
-.story-kicker {
-  color: var(--navy);
-  font-size: clamp(1.35rem, 2vw, 1.8rem);
-  font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -.025em;
-  max-width: 330px;
-}
-
-.story-copy {
+.moments {
+  margin-top: 34px;
   max-width: 720px;
+  display: grid;
+  gap: 10px;
 }
 
-.story-copy p {
+.moments p {
+  color: rgba(8,45,77,.92);
+  font-size: clamp(1.05rem, 1.45vw, 1.28rem);
+  line-height: 1.48;
+}
+
+.manifesto {
+  padding: 86px 0 94px;
+  background: #fff;
+}
+
+.reading-column {
+  max-width: 760px;
+}
+
+.reading-column p {
   color: var(--muted);
-  font-size: clamp(1.07rem, 1.45vw, 1.28rem);
-  line-height: 1.7;
+  font-size: clamp(1.08rem, 1.45vw, 1.28rem);
+  line-height: 1.72;
 }
 
-.story-copy p + p {
+.reading-column p + p {
   margin-top: 28px;
 }
 
-.story-copy .purpose {
-  margin-top: 34px;
+.reading-column .lead {
   color: var(--navy);
-  font-size: clamp(2rem, 3.3vw, 3.2rem);
-  line-height: 1.08;
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  line-height: 1.5;
+  letter-spacing: -.02em;
+}
+
+.pause-line {
+  width: 72px;
+  height: 2px;
+  margin: 52px 0;
+  background: var(--orange);
+}
+
+.reading-column .closing-line {
+  margin-top: 36px;
+  color: var(--navy);
+  font-size: clamp(2rem, 3.5vw, 3.25rem);
   font-weight: 800;
+  line-height: 1.08;
   letter-spacing: -.045em;
-}
-
-.examples {
-  padding: 66px 0;
-  background: var(--cream);
-  border-block: 1px solid var(--line);
-}
-
-.examples-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 56px;
-}
-
-.examples p {
-  color: var(--navy);
-  font-size: clamp(1.3rem, 2.2vw, 1.85rem);
-  line-height: 1.38;
-  letter-spacing: -.025em;
 }
 
 footer {
@@ -157,32 +127,16 @@ footer {
   font-size: .82rem;
 }
 
-@media (max-width: 900px) {
-  .hero-grid,
-  .story-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .hero-moments {
-    max-width: 650px;
-  }
-
-  .story-kicker {
-    max-width: 560px;
-  }
-}
-
 @media (max-width: 760px) {
   .container { width: min(calc(100% - 32px), var(--max)); }
-  .nav { min-height: 58px; }
-  .hero { padding: 88px 0 54px; }
-  h1 { font-size: clamp(2.7rem, 12vw, 4rem); }
-  .hero-moments { gap: 11px; }
-  .story { padding: 58px 0; }
-  .story-copy p + p { margin-top: 22px; }
-  .examples { padding: 50px 0; }
-  .examples-grid { grid-template-columns: 1fr; gap: 28px; }
+  .nav { min-height: 56px; }
+  .hero { padding: 82px 0 50px; }
+  h1 { font-size: clamp(2.55rem, 11vw, 3.8rem); }
+  .moments { margin-top: 26px; gap: 8px; }
+  .manifesto { padding: 60px 0 68px; }
+  .reading-column p + p { margin-top: 22px; }
+  .pause-line { margin: 40px 0; }
+  .reading-column .closing-line { margin-top: 30px; }
   .footer-inner {
     min-height: 76px;
     flex-direction: column;
