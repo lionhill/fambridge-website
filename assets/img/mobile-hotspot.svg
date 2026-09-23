@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="t d">
+<title id="t">Mobile hotspot for work and travel</title>
+<desc id="d">Original illustration of a portable mobile hotspot used while working away from home.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#eef4f8"/><stop offset="1" stop-color="#dce8f0"/></linearGradient></defs>
+<rect width="900" height="620" rx="36" fill="url(#bg)"/>
+<rect x="112" y="350" width="676" height="24" rx="12" fill="#9eb0bd"/>
+<rect x="492" y="214" width="230" height="136" rx="18" fill="#fff" stroke="#082d4d" stroke-width="12"/>
+<rect x="524" y="244" width="166" height="80" rx="8" fill="#dfe8ee"/>
+<rect x="180" y="224" width="198" height="118" rx="28" fill="#082d4d"/>
+<circle cx="226" cy="283" r="10" fill="#f59a3d"/>
+<rect x="251" y="272" width="80" height="20" rx="10" fill="#fff" opacity=".9"/>
+<path d="M237 216c15-28 48-46 80-46s65 18 80 46M211 185c27-50 74-78 106-78 42 0 87 27 112 78" fill="none" stroke="#f59a3d" stroke-width="12" stroke-linecap="round"/>
+<path d="M120 374h660l-58 98H182Z" fill="#fff" stroke="#082d4d" stroke-width="12" stroke-linejoin="round"/>
+<rect x="336" y="409" width="228" height="20" rx="10" fill="#d8e2e8"/>
+<circle cx="741" cy="137" r="65" fill="#f59a3d" opacity=".3"/>
+<path d="M715 137h52M741 111v52" stroke="#082d4d" stroke-width="10" stroke-linecap="round"/>
+</svg>
