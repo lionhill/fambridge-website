@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="t d">
+<title id="t">Rondo Radio shared listening</title>
+<desc id="d">Original illustration of music travelling between distant places and connecting people.</desc>
+<rect width="900" height="620" rx="36" fill="#082d4d"/>
+<circle cx="450" cy="310" r="154" fill="#0d3a60"/>
+<circle cx="450" cy="310" r="92" fill="#f59a3d"/>
+<circle cx="450" cy="310" r="34" fill="#082d4d"/>
+<path d="M450 156v-58M450 522v-58M296 310h-72M676 310h-72" stroke="#f59a3d" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+<path d="M260 190c-65 31-104 74-124 131M640 190c65 31 104 74 124 131M260 430c-65-31-104-74-124-131M640 430c65-31 104-74 124-131" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".36"/>
+<circle cx="136" cy="321" r="34" fill="#fff"/>
+<circle cx="764" cy="321" r="34" fill="#fff"/>
+<path d="M108 395c12-38 44-58 72-58s60 20 72 58M648 395c12-38 44-58 72-58s60 20 72 58" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+<path d="M500 264v90c0 18-15 33-33 33s-33-15-33-33 15-33 33-33c8 0 15 3 21 7v-94l82-21v91c0 18-15 33-33 33s-33-15-33-33 15-33 33-33c8 0 15 3 21 7v-75Z" fill="#fff" opacity=".92"/>
+</svg>
