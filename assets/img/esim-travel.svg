@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="t d">
+<title id="t">International roaming eSIM travel connection</title>
+<desc id="d">Original illustration of a smartphone connecting across borders during travel.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff4e9"/><stop offset="1" stop-color="#e8eef3"/></linearGradient></defs>
+<rect width="900" height="620" rx="36" fill="url(#bg)"/>
+<circle cx="642" cy="278" r="156" fill="none" stroke="#082d4d" stroke-width="12" opacity=".22"/>
+<path d="M486 278h312M642 122c-58 61-76 113-76 156s18 95 76 156M642 122c58 61 76 113 76 156s-18 95-76 156M512 197c82 41 178 41 260 0M512 359c82-41 178-41 260 0" fill="none" stroke="#082d4d" stroke-width="8" opacity=".22"/>
+<rect x="154" y="120" width="236" height="386" rx="44" fill="#082d4d"/>
+<rect x="177" y="162" width="190" height="298" rx="26" fill="#fff"/>
+<rect x="238" y="136" width="68" height="8" rx="4" fill="#fff" opacity=".7"/>
+<rect x="222" y="236" width="102" height="92" rx="18" fill="#f59a3d"/>
+<path d="M252 236v-28h64l28 28v64h-20" fill="none" stroke="#082d4d" stroke-width="10" stroke-linejoin="round"/>
+<path d="M452 264c50-45 92-64 137-67" fill="none" stroke="#f59a3d" stroke-width="12" stroke-linecap="round"/>
+<path d="M565 171l36 25-34 28" fill="none" stroke="#f59a3d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="790" cy="123" r="48" fill="#f59a3d" opacity=".35"/>
+</svg>
