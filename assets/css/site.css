@@ -140,11 +140,11 @@ h2{margin-top:14px;font-size:clamp(2.25rem,3.4vw,3.65rem);line-height:1.07;lette
 .large-quote{font-size:clamp(2.25rem,3.5vw,3.7rem);line-height:1.12;letter-spacing:-.04em}
 
 /* About */
-.company-facts{background:var(--ink)}
-.facts-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.12);border-radius:18px;overflow:hidden}
-.facts-grid div{padding:30px;background:var(--ink)}
-.facts-grid span{display:block;color:rgba(255,255,255,.48);font-size:.72rem;text-transform:uppercase;letter-spacing:.11em}
-.facts-grid strong{display:block;margin-top:10px;color:#fff;font-size:1.05rem;font-weight:600}
+.company-facts{background:linear-gradient(180deg,#f2efe9 0%,#e9ebe8 52%,#f2efe9 100%)}
+.facts-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:rgba(8,45,77,.10);border:1px solid rgba(8,45,77,.10);border-radius:18px;overflow:hidden}
+.facts-grid div{padding:30px;background:var(--paper)}
+.facts-grid span{display:block;color:#9a6a48;font-size:.72rem;font-weight:750;text-transform:uppercase;letter-spacing:.11em}
+.facts-grid strong{display:block;margin-top:10px;color:var(--ink);font-size:1.05rem;font-weight:600}
 
 /* Contact */
 .contact-page-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
