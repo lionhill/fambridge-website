@@ -193,6 +193,7 @@ footer{background:#061f35;color:rgba(255,255,255,.6)}
   .home-hero h1{font-size:clamp(3rem,13vw,4.35rem)}
   .brand-panel{padding-top:8px}
   .hero-message{padding-left:18px}
+  .hero-message-title::after{width:56px;margin-top:14px}
   .page-hero,.rondo-hero{padding:66px 0}
   .page-hero h1,.rondo-hero h1{font-size:clamp(2.8rem,12vw,4.4rem)}
   .section,.case-section{padding:70px 0}
