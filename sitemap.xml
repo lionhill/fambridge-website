@@ -1,64 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://fambridge.ca/</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/business.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/business.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/business.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/fr/business.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/business.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/business.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/products.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/products.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/products.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/fr/products.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/products.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/products.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/rondo-radio.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/rondo-radio.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/rondo-radio.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/fr/rondo-radio.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/rondo-radio.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/rondo-radio.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/about.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/about.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/fr/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/about.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/about.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/contact.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/contact.html"/>
-  </url>
-  <url>
-    <loc>https://fambridge.ca/fr/contact.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/contact.html"/>
-  </url>
+  <url><loc>https://fambridge.ca/</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/"/></url>
+  <url><loc>https://fambridge.ca/fr/</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/"/></url>
+  <url><loc>https://fambridge.ca/business.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/business.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/business.html"/></url>
+  <url><loc>https://fambridge.ca/fr/business.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/business.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/business.html"/></url>
+  <url><loc>https://fambridge.ca/products.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/products.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/products.html"/></url>
+  <url><loc>https://fambridge.ca/fr/products.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/products.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/products.html"/></url>
+  <url><loc>https://fambridge.ca/rondo-radio.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/rondo-radio.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/rondo-radio.html"/></url>
+  <url><loc>https://fambridge.ca/fr/rondo-radio.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/rondo-radio.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/rondo-radio.html"/></url>
+  <url><loc>https://fambridge.ca/about.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/about.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/about.html"/></url>
+  <url><loc>https://fambridge.ca/fr/about.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/about.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/about.html"/></url>
+  <url><loc>https://fambridge.ca/contact.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/contact.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/contact.html"/></url>
+  <url><loc>https://fambridge.ca/fr/contact.html</loc><xhtml:link rel="alternate" hreflang="en-CA" href="https://fambridge.ca/contact.html"/><xhtml:link rel="alternate" hreflang="fr-CA" href="https://fambridge.ca/fr/contact.html"/></url>
 </urlset>
