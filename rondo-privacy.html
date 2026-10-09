@@ -33,7 +33,7 @@
   <div class="container narrow-hero">
     <p class="eyebrow">Rondo Radio</p>
     <h1>Privacy Policy</h1>
-    <p class="legal-meta">Effective September 26, 2026</p>
+    <p class="legal-meta">Effective October 8, 2026 · Last Updated October 8, 2026</p>
   </div>
 </section>
 <section class="legal-shell"><div class="container"><article class="legal-document">
@@ -76,15 +76,26 @@
 <p>Rondo does not use an email address as the primary identifier for a Rondo Account and does not automatically merge accounts based solely on matching email addresses.</p>
 <p>Rondo does not operate a first-party email-and-password authentication system.</p>
 
-<h3>2.3 Favorites</h3>
-<p>If you use Rondo without signing in, Favorites are stored locally on your device.</p>
-<p>If you sign in, Rondo stores the station identifiers in your synchronized Favorites collection so that additions and removals can be kept consistent across supported signed-in devices.</p>
+<h3>2.3 Subscription and Membership Information</h3>
+<p>If you choose to purchase, restore, or use a supported Rondo Membership subscription or other Membership entitlement, Rondo may process information needed to verify billing status, associate an eligible entitlement with a Rondo Account, prevent conflicting transaction ownership, and provide Membership features. Depending on the store and event, this may include:</p>
+<ul>
+  <li>the internal Rondo Account identifier and any store-provided app-account association token used for subscription verification;</li>
+  <li>the billing platform, subscription product identifier, transaction and original-transaction identifiers, and applicable Sandbox or production environment;</li>
+  <li>purchase, renewal, expiry, introductory-offer, automatic-renewal, billing-status, refund, or revocation information and relevant timestamps made available by the store;</li>
+  <li>verified store transaction data, server notifications, and reconciliation results used to determine an active Membership entitlement; and</li>
+  <li>limited processing and security records necessary to avoid duplicate transactions or notifications, investigate errors or fraud, and maintain service integrity.</li>
+</ul>
+<p>Rondo uses verified store information to determine Membership access; it does not treat an unverified purchase claim as proof of entitlement. Payments for App Store subscriptions are handled by Apple. Rondo does not receive or store your full payment-card number as part of those purchases. The applicable store independently processes payment and may retain its own transaction records under its privacy policy.</p>
 
-<h3>2.4 Recent Stations, Timer, Sleep Timer, and Settings</h3>
+<h3>2.4 Favorites</h3>
+<p>If you use Rondo without signing in, Favorites are stored locally on your device.</p>
+<p>When a signed-in Rondo Account has an eligible Membership entitlement for Favorites Sync, Rondo stores station identifiers in its synchronized Favorites collection so that additions and removals can be kept consistent across supported signed-in devices. Without synchronization access, Favorites may remain stored locally on the device.</p>
+
+<h3>2.5 Recent Stations, Timer, Sleep Timer, and Settings</h3>
 <p>Recent Stations, active Timer and Sleep Timer state, and various App preferences are stored locally on the device.</p>
 <p>Active Timer and Sleep Timer state is not synchronized through the Rondo Account service.</p>
 
-<h3>2.5 Help & Feedback</h3>
+<h3>2.6 Help & Feedback</h3>
 <p>Help & Feedback is user initiated.</p>
 <p>Rondo prepares a report locally and does not automatically send it. You decide whether to send or share the report through the available system interface.</p>
 <p>Depending on the report you choose to send, it may contain:</p>
@@ -112,7 +123,7 @@
 </ul>
 <p>If you send a report by email, the sender information associated with the email account you choose may be visible to Fambridge and will also be processed by the applicable email service providers.</p>
 
-<h3>2.6 Station, Broadcaster, and Rights-Holder Communications</h3>
+<h3>2.7 Station, Broadcaster, and Rights-Holder Communications</h3>
 <p>If you contact Fambridge to submit or update a station, provide stream or branding information, request a correction or removal, raise an intellectual-property concern, or otherwise communicate with us about third-party radio content, Fambridge may process:</p>
 <ul>
   <li>your name, business contact information, organization, and role where you provide them;</li>
@@ -153,7 +164,9 @@
   <li>protecting Rondo cloud services and playback-source information;</li>
   <li>creating and maintaining Rondo Accounts when requested by the user;</li>
   <li>authenticating signed-in users;</li>
-  <li>synchronizing Favorites;</li>
+  <li>synchronizing Favorites for accounts with eligible feature access;</li>
+  <li>verifying subscription transactions, processing relevant store notifications, and determining Membership entitlements;</li>
+  <li>handling subscription renewals, expirations, refunds, revocations, and account-to-purchase ownership checks;</li>
   <li>maintaining account and service security;</li>
   <li>detecting and preventing unauthorized access, scraping, fraud, and automated abuse;</li>
   <li>responding to feedback and station reports;</li>
@@ -192,7 +205,7 @@
 <p>Relevant providers include:</p>
 <ul>
   <li><strong>Cloudflare</strong>, for Rondo cloud infrastructure, network delivery, security, storage, and request processing;</li>
-  <li><strong>Apple</strong>, for App Store distribution, Sign in with Apple, app-integrity and platform security services, and operating-system functionality;</li>
+  <li><strong>Apple</strong>, for App Store distribution, Sign in with Apple, in-app subscription billing, StoreKit purchase verification and subscription-status notifications, app-integrity and platform security services, and operating-system functionality;</li>
   <li><strong>Google</strong>, when you choose Google Sign-In; and</li>
   <li><strong>email and sharing providers</strong>, when you voluntarily send feedback or contact Fambridge using those services.</li>
 </ul>
@@ -212,6 +225,8 @@
   <li>Rondo Account information is retained while needed to operate the account and is deleted or disassociated following successful account deletion, subject to limited lawful retention requirements;</li>
   <li>authentication sessions and credentials are retained only for their applicable security and session lifecycle and are revoked, replaced, or deleted when no longer required;</li>
   <li>synchronized Favorites are retained while associated with the relevant Rondo Account and are deleted from account storage when that account is successfully deleted;</li>
+  <li>account-linked subscription and Membership records are retained as needed to verify ongoing access, reconcile store billing events, and prevent duplicate or conflicting ownership; account deletion removes or disassociates records tied to the deleted account, subject to necessary limited security, audit, and legal retention;</li>
+  <li>limited store-notification processing and audit records may be retained for integrity and troubleshooting purposes after account deletion, with account-identifying information removed or disassociated where no longer required;</li>
   <li>security and operational records are retained for limited periods appropriate to security, abuse prevention, reliability, and legal requirements;</li>
   <li>feedback and ordinary correspondence are retained only for as long as reasonably necessary to review, respond to, investigate, or resolve the matter, and for any applicable legal requirement;</li>
   <li>station, broadcaster, and rights-holder submissions or correspondence may be retained for as long as reasonably necessary to document permissions, listing history, correction or removal requests, dispute resolution, and applicable legal obligations; and</li>
@@ -227,11 +242,12 @@
   <li>linked Apple and Google identity mappings;</li>
   <li>optional account email information held by Rondo;</li>
   <li>synchronized Favorites;</li>
-  <li>active Rondo sessions and refresh credentials; and</li>
+  <li>active Rondo sessions and refresh credentials;</li>
+  <li>account-linked Membership entitlements and subscription associations held by Rondo; and</li>
   <li>other account-specific cloud state.</li>
 </ul>
 <p>Where required by an authentication provider, Rondo also performs the applicable provider authorization-revocation process.</p>
-<p>Deleting a Rondo Account is not the same as signing out.</p>
+<p>Deleting a Rondo Account is not the same as signing out. <strong>Deleting a Rondo Account does not cancel an existing Apple App Store or other platform-store subscription</strong>; you must manage or cancel that subscription through the platform store to prevent future charges. The store may retain its independent billing records, and Rondo may retain limited non-account-linked notification or audit records for legitimate security, fraud-prevention, and legal purposes as described in Section 10.</p>
 <p>After account deletion, you can continue using Rondo without an account.</p>
 <p>Information stored only locally on your device is not necessarily removed by deleting a cloud account. You can remove local App data using the controls available on your device or by removing the App.</p>
 
@@ -282,7 +298,7 @@
 <h2>16. Changes to This Privacy Policy</h2>
 <p>Fambridge may update this Privacy Policy when necessary to keep the description of Rondo's actual privacy practices accurate or to comply with applicable law.</p>
 <p>If a change materially affects the collection, use, or disclosure of personal information, Fambridge will provide notice and obtain consent where required by applicable law.</p>
-<p>The "Last Updated" and "Effective Date" shown at the top identify the applicable version.</p>
+<p>The effective and last-updated dates shown at the top identify this published version.</p>
 
 <h2>17. Privacy Officer and Contact</h2>
 <p>Fambridge is accountable for personal information under its control.</p>
