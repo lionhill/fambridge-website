@@ -1,0 +1,37 @@
+# Fambridge Trading Inc.
+
+> Fambridge Trading Inc. is an Ontario, Canada company founded in 2025. It serves the Canadian market with a focus on communications products, connected devices, international connectivity services, and related digital experiences.
+
+Fambridge's public website is available in English (Canada) and French (Canada). The legal company name is Fambridge Trading Inc. The company is registered in Ontario, Canada. Its brand idea is "Reliable. Resourceful. Connected."
+
+## Company
+
+- [Home](https://fambridge.ca/): Corporate overview and current positioning.
+- [Business](https://fambridge.ca/business.html): International trading focus and business approach.
+- [About](https://fambridge.ca/about.html): Company story, founding information, and brand perspective.
+- [Contact](https://fambridge.ca/contact.html): General, business, developer, and product-support contact information.
+
+## Products and Services
+
+- [Products & Services](https://fambridge.ca/products.html): Kids smartwatches, mobile hotspots, and international roaming eSIM.
+- [Rondo Radio](https://fambridge.ca/rondo-radio.html): Fambridge's digital radio experience and its connection to the company's broader brand idea.
+
+## French
+
+- [Accueil](https://fambridge.ca/fr/): French-Canadian home page.
+- [Activités](https://fambridge.ca/fr/business.html): French-Canadian business page.
+- [Produits et services](https://fambridge.ca/fr/products.html): French-Canadian products and services page.
+- [Rondo Radio](https://fambridge.ca/fr/rondo-radio.html): French-Canadian Rondo Radio page.
+- [À propos](https://fambridge.ca/fr/about.html): French-Canadian company page.
+- [Contact](https://fambridge.ca/fr/contact.html): French-Canadian contact page.
+
+## Legal
+
+- [Rondo Radio Terms of Use](https://fambridge.ca/rondo-terms.html): Terms governing Rondo Radio and related Membership features.
+- [Rondo Radio Privacy Policy](https://fambridge.ca/rondo-privacy.html): Privacy information for Rondo Radio.
+
+## Contact
+
+- General and business inquiries: info@fambridge.ca
+- Developer contact: david@fambridge.ca
+- Product support: support@fambridge.ca
