@@ -34,7 +34,7 @@
   <div class="container narrow-hero">
     <p class="eyebrow">Rondo Radio</p>
     <h1>Privacy Policy</h1>
-    <p class="legal-meta">Effective October 8, 2026 · Last Updated October 23, 2026</p>
+    <p class="legal-meta">Effective October 8, 2026 · Last Updated October 28, 2026</p>
   </div>
 </section>
 <section class="legal-shell"><div class="container"><article class="legal-document">
@@ -87,6 +87,8 @@
   <li>limited processing and security records necessary to avoid duplicate transactions or notifications, investigate errors or fraud, and maintain service integrity.</li>
 </ul>
 <p>Rondo uses verified store information to determine Membership access; it does not treat an unverified purchase claim as proof of entitlement. Payments for App Store subscriptions are handled by Apple. Rondo does not receive or store your full payment-card number as part of those purchases. The applicable store independently processes payment and may retain its own transaction records under its privacy policy.</p>
+
+<p>Where Rondo offers complimentary, introductory, promotional, or other one-time benefits, it processes limited eligibility and redemption history to apply the applicable offer rules and prevent repeated claims. This may include a keyed cryptographic digest derived from a stable identifier supplied by an authentication provider, a separate claim reference, and relevant timestamps. The eligibility record is maintained separately from the active Rondo Account and does not contain the email address, the unprotected provider identifier, or the Rondo Account ID. A keyed digest is pseudonymous, not necessarily anonymous, and may still be personal information under applicable law.</p>
 
 <h3>2.4 Favorites</h3>
 <p>If you use Rondo without signing in, Favorites are stored locally on your device.</p>
@@ -174,6 +176,7 @@
   <li>authenticating signed-in users;</li>
   <li>synchronizing Favorites for accounts with eligible feature access;</li>
   <li>verifying subscription transactions, processing relevant store notifications, and determining Membership entitlements;</li>
+  <li>determining eligibility for offered benefits, recording redemption, and preventing repeated claims of one-time benefits;</li>
   <li>handling subscription renewals, expirations, refunds, revocations, and account-to-purchase ownership checks;</li>
   <li>maintaining account and service security;</li>
   <li>detecting and preventing unauthorized access, scraping, fraud, and automated abuse;</li>
@@ -236,6 +239,7 @@
   <li>synchronized Favorites are retained while associated with the relevant Rondo Account and are deleted from account storage when that account is successfully deleted;</li>
   <li>account-linked subscription and Membership records are retained as needed to verify ongoing access, reconcile store billing events, and prevent duplicate or conflicting ownership; account deletion removes or disassociates records tied to the deleted account, subject to necessary limited security, audit, and legal retention;</li>
   <li>limited store-notification processing and audit records may be retained for integrity and troubleshooting purposes after account deletion, with account-identifying information removed or disassociated where no longer required;</li>
+  <li>pseudonymous offer-eligibility and redemption records may be kept separately after account deletion for as long as reasonably necessary to enforce one-time eligibility rules, prevent repeat claims or abuse, and meet applicable legal obligations. They are not automatically erased when the account is deleted and remain subject to applicable privacy rights and deletion requests;</li>
   <li>security and operational records are retained for limited periods appropriate to security, abuse prevention, reliability, and legal requirements;</li>
   <li>Listening Analytics awaiting upload may be stored on the device in a bounded, rolling buffer of up to 180 days, and may be removed earlier because of device storage limits, technical failures, or the App/device lifecycle;</li>
   <li>accepted first-party listening statistics may be retained in Rondo's operational cloud records and protected historical archives for legitimate analytics purposes, subject to applicable retention, security, and data-minimization requirements. Pseudonymous App-level records can persist separately from account identifiers;</li>
@@ -259,6 +263,7 @@
   <li>other account-specific cloud state.</li>
 </ul>
 <p>Where required by an authentication provider, Rondo also performs the applicable provider authorization-revocation process.</p>
+<p>Deleting a Rondo Account does not automatically delete separately maintained pseudonymous offer-eligibility or redemption history. Such records may be retained for the limited purposes described in Section 10, subject to applicable law and individual privacy or deletion requests. This history does not restore the deleted account or its Membership entitlement.</p>
 <p>Deleting a Rondo Account is not the same as signing out. <strong>Deleting a Rondo Account does not cancel an existing Apple App Store or other platform-store subscription</strong>; you must manage or cancel that subscription through the platform store to prevent future charges. The store may retain its independent billing records, and Rondo may retain limited non-account-linked notification or audit records for legitimate security, fraud-prevention, and legal purposes as described in Section 10.</p>
 <p>For Listening Analytics, successful account deletion removes or irreversibly disassociates the deleted Rondo Account identifier from associated listening records, including relevant historical records, subject to applicable requirements. Pseudonymous App-level listening statistics may remain for legitimate analytics purposes without the deleted account association. Deleting a Rondo Account does not necessarily delete all local App data or every previously aggregated listening record. Applicable privacy rights and request options are described in Sections 11 and 14.</p>
 <p>After account deletion, you can continue using Rondo without an account.</p>
